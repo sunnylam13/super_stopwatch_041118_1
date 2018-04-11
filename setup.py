@@ -6,12 +6,12 @@ except ImportError:
 config = {
 	'description': 'A simple stopwatch program to help track time on boring, un-automated tasks...',
 	'author': 'Sunny Lam',
-	'url': 'URL to get it at',
-	'download_url': 'Where to download it',
+	'url': 'https://github.com/sunnylam13/super_stopwatch_041118_1',
+	'download_url': 'https://github.com/sunnylam13/super_stopwatch_041118_1',
 	'author_email': 'sunny.lam@gmail.com',
 	'version': '0.1',
 	'install_requires': ['nose'],
-	'packages': ['NAME'],
+	'packages': ['time'],
 	'scripts': [],
 	'name': 'Super Stopwatch'
 }
