@@ -30,7 +30,7 @@ try:
 		input()
 		lapTime = round( time.time() - lastTime, 2 )
 		totalTime = round( time.time() - startTime, 2 )
-		print( 'Lap #%s: %s (%s)' % (lapNum,totalTime,lapTime), end=' ' )
+		print( 'Lap #%s: %s (%s)' % (str(lapNum).ljust(50),str(totalTime).ljust(50),str(lapTime).rjust(50)), end=' ' )
 		lapNum +=1
 		lastTime = time.time() # reset the last lap time
 except KeyboardInterrupt:
